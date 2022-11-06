@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.62383464.css",
+    "main.js": "/portfolio/static/js/main.8464f9f1.js",
+    "static/media/recipe.png": "/portfolio/static/media/recipe.610c36a0a14083ee516e.png",
+    "static/media/gunstore.png": "/portfolio/static/media/gunstore.14e88b12c0e4a14b2d67.png",
+    "static/media/e1.png": "/portfolio/static/media/e1.40b646fa0a3917c06cc4.png",
+    "static/media/wea.png": "/portfolio/static/media/wea.d7985ce10a557dcd821e.png",
+    "static/media/cat1.png": "/portfolio/static/media/cat1.df1b1ac7551212884abe.png",
+    "static/media/tod.png": "/portfolio/static/media/tod.f22c38449ef49c5db6c4.png",
+    "static/media/idesign.png": "/portfolio/static/media/idesign.726f3012c6602c415c75.png",
+    "static/media/git.png": "/portfolio/static/media/git.3da1e54a9c4f86493baf.png",
+    "static/media/20.svg": "/portfolio/static/media/20.e7fd0478451b8d72ff9b93b1ea475b66.svg",
+    "static/media/22.svg": "/portfolio/static/media/22.4f8924d6d5b6088e355f72e47f50c6dc.svg",
+    "static/media/21.svg": "/portfolio/static/media/21.253750adc3dbea992ceecd310394d585.svg",
+    "index.html": "/portfolio/index.html",
+    "main.62383464.css.map": "/portfolio/static/css/main.62383464.css.map",
+    "main.8464f9f1.js.map": "/portfolio/static/js/main.8464f9f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62383464.css",
+    "static/js/main.8464f9f1.js"
+  ]
+}
