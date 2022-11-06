@@ -1,0 +1,68 @@
+.education {
+    user-select: none;
+    padding-top: 2.5rem;
+}
+
+.edu_title {
+    font-size: var(--title-size);
+}
+
+.edu_subtitle {
+    font-size: var(--sub-size);
+}
+
+.edu_tab {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.edu_tab i {
+    font-size: 3rem;
+}
+
+.edu_icon {
+    font-size: 5rem;
+}
+
+.edication_data {
+    display: flex;
+    text-align: center;
+}
+
+.edication_data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.education_title {
+    font-size: var(--subtitle-size);
+    font-weight: bold;
+}
+
+.education_subtitle {
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    color: var(--second-color);
+}
+
+.edication_calendar {
+    font-size: var(--smaller-font-size);
+    color: var(--second-color);
+}
+
+.edication_rounder {
+    display: inline-block;
+    width: 13px; height: 13px;
+    background-color: var(--second-color);
+    border-radius: 50%;
+}
+
+.education_line {
+    display: block;
+    width: 1px; height: 100%;
+    background-color: var(--second-color);
+    transform: translate(6px, -12px);
+}

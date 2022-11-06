@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    z-index: 2;
+    position: fixed;
+    width: max-content;
+    background-color: var(--second-color);
+    border-radius: 1.5rem;
+    padding: .6em 1.5em;
+    bottom: 1.6rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    background: transparent;
+    color: var(--first-color);
+    font-size: 1rem;
+    padding: .3em .6em 0 .5em;
+    cursor: none;
+}

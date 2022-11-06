@@ -1,0 +1,28 @@
+.cursor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: var(--z-modal);
+    border-radius: 50%;
+    width: 30px; height: 30px;
+    border: 2px solid white;
+    filter: drop-shadow(3px 3px 3px #00A3FF);
+    place-items: center;
+    pointer-events: none;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    position: fixed;
+}
+
+.cursor-out {
+    border-radius: 50%;
+    width: 8px; height: 8px;
+    border: 2px solid white;
+    filter: drop-shadow(3px 3px 3px #00A3FF);
+}
+
+@media screen and (min-width: 280px) and (max-width: 1280px) {
+    .cursor, .cursor-out {
+        visibility: hidden;
+    }
+}

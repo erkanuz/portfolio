@@ -1,0 +1,99 @@
+.contact {
+    user-select: none;
+    margin-top: 2.5rem;
+}
+
+.contact_title {
+    font-size: 36px;
+}
+
+.contact_subtitle {
+    font-size: 16px;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 50vh;
+    align-content: center;
+    place-items: center;
+}
+
+.apple {
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+}
+
+.logo {
+    font-size: 80px;
+}
+
+.con_card {
+    width: 12rem;
+}
+
+.con_content {
+    text-align: center;
+    position: relative;
+    transition: all 2.25s;
+    background-color: rgb(127, 204, 240);
+    padding: 5em;
+    transform-style: preserve-3d;
+    border-radius: .7rem;
+}
+
+.con_card:hover .con_content {
+    transform: rotateY(.5turn);
+}
+
+.front, .back {
+    position: absolute;
+    inset: 0 0 0 0;
+    padding: 2rem;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    border-radius: .7rem;
+} 
+
+.con_title {
+    transform: translateZ(5rem);
+    font-size: 2rem;
+}
+
+.con_subtitle {
+    transform: translateZ(2rem);
+    color: var(--second-color);
+}
+
+.back {
+    transform: rotateY(.5turn);
+    background-color: #009bff;
+}
+
+.con_description {
+    transform: translateZ(3rem);
+}
+
+.apple .text1 {
+    color: var(--first-color);
+    filter: drop-shadow(0rem 0rem 0rem rgb(46, 64, 255, .9))
+            drop-shadow(.2rem .2rem .2rem var(--second-color))
+            drop-shadow(.2rem 0rem .2rem var(--second-color)) ;
+}
+
+.logo {
+    color: white;
+    transition: all .4s;
+    filter: drop-shadow(.5px 1px 5px #0500FF);
+}
+
+.logo:hover {
+    transition: all .4s;
+    filter: drop-shadow(5px 5px 10px #d50f16);
+}
+
+.con_so_icon {
+    color: var(--second-color);
+    cursor: none;
+}
